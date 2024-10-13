@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F5F5F5;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Container for the entire currency converter */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
+}
+
+/* Title for the currency converter */
+.converter-title {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+
+@media (min-width: 768px) {
+  .converter-title {
+    font-size: 40px;
+  }
+}
+
+/* Description for the converter with API link */
+.converter-description {
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+
+@media (min-width: 768px) {
+  .converter-description {
+    font-size: 18px;
+  }
+}
+
+.api-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Converter box styling */
+.converter-box {
+
+  width: 90%;
+  max-width: 800px;
+  margin-top: 20px;
+  min-height: 200px;
+  background-color: white;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Flexbox for the controls inside the converter */
+.converter-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+@media (min-width: 768px) {
+  .converter-controls {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Swap icon between the input selects */
+.swap-icon {
+  min-width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Conversion result text */
+.conversion-result {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Spacer to add additional margin below */
+.spacer {
+  margin-top: 100px;
+}
+
+/* Container holding the input and select elements */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px; /* Adjusts the space between elements */
+  width: 100%;
+}
+
+/* Label for the input and select components */
+.input-label {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+/* Container for the select dropdown */
+.select-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px; /* Space between the select and other elements */
+  align-items: flex-end;
+  width: 100%;
+}
+
+/* Input field for number entry */
+.input-field {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Creates a border at the bottom */
+  font-size: 25px;
+  margin-top: 8px;
+  padding: 4px; /* Adds some internal padding */
+  box-sizing: border-box; /* Ensures padding doesn't increase size */
+}
+
+/* Label for the amount section */
+.amount-label {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Styles for the Select component */
+.select-component {
+  width: 100%;
+}
+
+.select-component__control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-component__menu {
+  border-radius: 4px;
+}
+
+/* Styling for the clearable (X) icon */
+.select-component__clear-indicator {
+  color: #aaa;
+}
+
+.select-component__indicator-separator {
+  background-color: transparent; /* Removes the separator */
+}
