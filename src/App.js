@@ -1,12 +1,6 @@
-// this CustomInputComponent is a custom component i created
-// to make the code cleaner
-// using the react-select package
 import CustomInputComponent from "./components/InputSection";
 import React, { useEffect, useState } from "react";
-// below is a react Icon
 import { IoSwapHorizontal } from "react-icons/io5";
-// I created a dataTransferObject and imported it here
-// more detail is in the file
 import { DataTransferObject } from "./components/DTO";
 
 const Page = () => {

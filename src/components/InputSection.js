@@ -1,10 +1,7 @@
 import React from "react";
 import Select from "react-select";
 
-// I created this input component so I don't have to duplicate the same
-// and not to make the code bulky...
-// it makes the code re-useable
-// this collects infos via props based on it needs
+
 const CustomInputComponent = ({
   label,
   data,

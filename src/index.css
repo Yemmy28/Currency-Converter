@@ -16,7 +16,7 @@ code {
 }
 
 
-/* Container for the entire currency converter */
+
 .container {
   width: 100%;
   min-height: 100vh;
@@ -33,7 +33,7 @@ code {
   }
 }
 
-/* Title for the currency converter */
+
 .converter-title {
   font-size: 30px;
   width: 100%;
@@ -47,7 +47,7 @@ code {
   }
 }
 
-/* Description for the converter with API link */
+
 .converter-description {
   font-size: 14px;
   width: 100%;
@@ -67,7 +67,7 @@ code {
   text-decoration: underline;
 }
 
-/* Converter box styling */
+
 .converter-box {
 
   width: 90%;
@@ -84,7 +84,7 @@ code {
 
 }
 
-/* Flexbox for the controls inside the converter */
+
 .converter-controls {
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@ code {
   }
 }
 
-/* Swap icon between the input selects */
+
 .swap-icon {
   min-width: 50px;
   height: 50px;
@@ -110,60 +110,60 @@ code {
   justify-content: center;
 }
 
-/* Conversion result text */
+
 .conversion-result {
   font-weight: bold;
   margin-top: 20px;
 }
 
-/* Spacer to add additional margin below */
+
 .spacer {
   margin-top: 100px;
 }
 
-/* Container holding the input and select elements */
+
 .input-container {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 8px; /* Adjusts the space between elements */
+  gap: 8px; 
   width: 100%;
 }
 
-/* Label for the input and select components */
+
 .input-label {
   font-size: 24px;
   margin-bottom: 4px;
 }
 
-/* Container for the select dropdown */
+
 .select-container {
   display: flex;
   flex-direction: row;
-  gap: 8px; /* Space between the select and other elements */
+  gap: 8px; 
   align-items: flex-end;
   width: 100%;
 }
 
-/* Input field for number entry */
+
 .input-field {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid #ccc; /* Creates a border at the bottom */
+  border-bottom: 1px solid #ccc; 
   font-size: 25px;
   margin-top: 8px;
-  padding: 4px; /* Adds some internal padding */
-  box-sizing: border-box; /* Ensures padding doesn't increase size */
+  padding: 4px; 
+  box-sizing: border-box; 
 }
 
-/* Label for the amount section */
+
 .amount-label {
   font-size: 16px;
   margin-top: 8px;
 }
 
-/* Styles for the Select component */
+
 .select-component {
   width: 100%;
 }
@@ -177,11 +177,11 @@ code {
   border-radius: 4px;
 }
 
-/* Styling for the clearable (X) icon */
+
 .select-component__clear-indicator {
   color: #aaa;
 }
 
 .select-component__indicator-separator {
-  background-color: transparent; /* Removes the separator */
+  background-color: transparent; 
 }

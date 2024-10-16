@@ -1,12 +1,3 @@
-// the idea of this function
-// is to filter out the necessary data from
-// the json returned from the api
-// ....
-// the required data is {value: "", label: ""}
-// value and label are only accepted by the react-select package
-// and the value and label can be reused to make request
-// to the api for conversions while label can be used for display
-
 export function DataTransferObject(data) {
     let newData = []; // this is an empty array which will be appended based on the data available
   
